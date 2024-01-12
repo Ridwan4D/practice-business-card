@@ -3,3 +3,63 @@
 /* 
 font-family: 'DM Sans', sans-serif;
 */
+
+.container{
+    height: 537px;
+    width: 1160px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+    padding: 120px;
+    background-color: rgb(229, 231, 235);
+}
+.card{
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+.card .hero-img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text-section{
+    padding: 10px 30px;
+}
+h1{
+    font-size: 25px;
+}
+.color-text {
+    color: gray;
+    font-size: 15px;
+}
+hr{
+    border: 1px solid rgb(229, 231, 235);
+}
+.footer{
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+}
+
+.img-div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.footer img{
+    width: 36px;
+    margin: 5px 0 0 5px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.footer-text h4{
+    margin: 0;
+}
+.footer-text p{
+    margin: 0;
+}
